@@ -1,0 +1,24 @@
+{
+    "name": "fastify-api",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "scripts": {
+        "start": "nodemon node_modules/nodemon/bin/nodemon.js ./src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Dell",
+    "contributors": [],
+    "dependencies": {
+        "boom": "^7.3.0",
+        "fastify": "^2.2.0",
+        "fastify-swagger": "^2.3.2",
+        "mongoose": "^5.5.1",
+        "nodemon": "^1.18.11"
+    }
+}
